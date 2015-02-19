@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Build by mayitbe.net
+
 wget -c http://dl.fedoraproject.org/pub/epel/7/x86_64/x/xl2tpd-1.3.6-7.el7.x86_64.rpm
 wget -c http://dl.fedoraproject.org/pub/epel/7/x86_64/p/pptpd-1.4.0-2.el7.x86_64.rpm
 yum -y install openswan net-tools ppp xl2tpd-1.3.6-7.el7.x86_64.rpm pptpd-1.4.0-2.el7.x86_64.rpm
